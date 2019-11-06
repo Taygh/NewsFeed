@@ -7,5 +7,4 @@ to retrieve the associated story (in real life we'd have a story ID as the key o
 something like that). Each story is rated by an editor based on how interesting it is and how hot the story is. Every once in a while 
 (several times per hour), the editor will either upgrade or downgrade the importance of stories as they get hotter or more stale as time 
 passes. The editors add stories and change their staleness-factor directly in our application. Meanwhile the reader's application looks at 
-the news feed once in a while and pulls off the 5 least stale news items and displays them for the user. We will design our NewsFeed class 
-to handle this use case.
+the news feed once in a while and pulls off the 5 least stale news items and displays them for the user. 
